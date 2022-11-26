@@ -22824,7 +22824,7 @@ a.u-button-style.u-border-20 {
 }
 /*begin-variables font-family*/
 .u-body {
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'League Spartan';
 }
 h1,
 h2,
@@ -22832,7 +22832,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto,sans-serif;
+  font-family: 'League Spartan';
 }
 /*end-variables font-family*/
 /*begin-variables color*/
@@ -22853,10 +22853,10 @@ h6 {
 /*end-variables color*/
 /*begin-variables font*/
 .u-custom-font.u-text-font {
-  font-family: 'Open Sans',sans-serif !important;
+  font-family: 'League Spartan' !important;
 }
 .u-custom-font.u-heading-font {
-  font-family: Roboto,sans-serif !important;
+  font-family: 'League Spartan' !important;
 }
 /*end-variables font*/
 /*begin-variables colors*/
@@ -38275,6 +38275,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-weight: 700;
   font-family: "League Spartan";
   font-size: 1rem;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -38283,10 +38284,6 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     width: auto;
-  }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
   }
 }
 
@@ -38339,6 +38336,9 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 
+ /*begin-variables custom-site-css*/html {
+	scroll-behavior: smooth;
+}/*end-variables custom-site-css*/
  /*begin-variables base-font-size*/ 
- html { font-size: 16px; }
+ html { font-size: 20px; }
  /*end-variables base-font-size*/
