@@ -1,5 +1,5 @@
  .u-section-1 {
-  min-height: 861px;
+  min-height: 885px;
 }
 
 .u-section-1 .u-shape-1 {
@@ -76,7 +76,7 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 779px;
+    min-height: 803px;
   }
 
   .u-section-1 .u-image-1 {
@@ -138,6 +138,7 @@
 .u-section-2 .u-text-1 {
   font-size: 4.5rem;
   font-weight: 300;
+  font-family: "League Spartan";
   margin: 0;
 }
 
